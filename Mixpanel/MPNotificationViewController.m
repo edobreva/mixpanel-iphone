@@ -149,7 +149,7 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    return UIInterfaceOrientationMaskPortrait;
+    return UIInterfaceOrientationMaskAll;
 }
 
 - (void)beginAppearanceTransition:(BOOL)isAppearing animated:(BOOL)animated
